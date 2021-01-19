@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.warning {
+  text-align: center;
+  font-size: 1rem;
+  background-color: #e8d5b5;
+  color: #663399;
+}
+
+.name-container {
+  background-color: #e8d5b5;
+  color: #663399;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.option-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.option-item h5 {
+  padding: 1rem 1rem 0 0;
+}
+
+.option-item input {
+  width: 100px;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .name-container {
+    width: 80%;
+    margin: 1rem auto 1rem auto;
+  }
+}
