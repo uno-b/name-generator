@@ -1,5 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer {
+  margin-top: auto;
   margin-top: 2rem;
+  width: 100%;
   text-align: center;
   padding: 1rem;
   color: #663399;

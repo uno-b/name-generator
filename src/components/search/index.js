@@ -124,8 +124,8 @@ const Search = () => {
 
   return (
     <>
+      <Result name={name} />
       <div className={styles.container}>
-        <h1>Create a Random Name</h1>
         {isAdvanced && (
           <h2>
             <Advanced
@@ -140,20 +140,20 @@ const Search = () => {
             />
           </h2>
         )}
-        <div className={styles.buttons}>
-          <button
-            onClick={() => {
-              setIsAdvanced(!isAdvanced)
-            }}
-          >
-            Advanced
-          </button>
-          <button className={styles.generateButton} onClick={generate}>
-            Generate
-          </button>
-        </div>
       </div>
-      <Result name={name} />
+      <div className={styles.buttons}>
+        <button className={styles.generateButton} onClick={generate}>
+          Generate
+        </button>
+        <button
+          className={styles.advancedButton}
+          onClick={() => {
+            setIsAdvanced(!isAdvanced)
+          }}
+        >
+          Advanced Settings
+        </button>
+      </div>
     </>
   )
 }

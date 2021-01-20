@@ -7,7 +7,7 @@ const Result = ({ name }) => {
   return (
     <div className={styles.resultContainer}>
       {firstName && lastName && middleInitial ? (
-        <h1>{`${firstName} ${middleInitial} ${lastName}`}</h1>
+        <h1>{`${firstName} ${lastName}`}</h1>
       ) : (
         <h1>Click "Generate"</h1>
       )}

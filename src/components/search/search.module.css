@@ -15,29 +15,37 @@
 }
 
 .buttons {
+  width: 300px;
+  margin: auto;
   display: flex;
-  flex-direction: row;
-}
-
-.buttons button {
-  width: 100%;
-  padding: 1rem;
-  font-size: 1.5rem;
-  background-color: #663399;
-  color: #e8d5b5;
-  border: none;
-  border-top: 2px solid #e8d5b5;
-  transition-duration: 0.2s;
-}
-
-.buttons button:hover {
-  background-color: #7da9c3;
-  color: #663399;
+  flex-direction: column;
 }
 
 .buttons .generate-button {
-  background-color: #e8d5b5;
+  background-color: #663399;
+  color: #e8d5b5;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.buttons .generate-button:hover {
+  background-color: #7da9c3;
+}
+
+.buttons .advanced-button {
+  width: 150px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
   color: #663399;
+  margin: 1rem auto 0 auto;
+  white-space: nowrap;
+}
+
+.buttons .advanced-button:hover {
+  color: #7da9c3;
 }
 
 .result {

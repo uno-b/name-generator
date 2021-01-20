@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-bottom: 2rem;
 }
 
 .warning {
@@ -9,6 +10,7 @@
   font-size: 1rem;
   background-color: #e8d5b5;
   color: #663399;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .name-container {
