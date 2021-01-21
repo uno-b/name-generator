@@ -600,3 +600,7 @@ pre tt:after {
   position: relative;
   min-height: 100vh;
 }
+
+* {
+  font-family: "Syne", sans-serif;
+}

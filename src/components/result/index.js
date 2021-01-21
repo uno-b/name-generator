@@ -9,7 +9,7 @@ const Result = ({ name }) => {
       {firstName && lastName && middleInitial ? (
         <h1>{`${firstName} ${lastName}`}</h1>
       ) : (
-        <h1>Name appears here</h1>
+        <h1></h1>
       )}
     </div>
   )

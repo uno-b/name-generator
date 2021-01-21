@@ -23,5 +23,11 @@ module.exports = {
     `gatsby-transformer-excel`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Syne`],
+      },
+    },
   ],
 }

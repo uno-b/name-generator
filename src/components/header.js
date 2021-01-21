@@ -4,7 +4,7 @@ import React from "react"
 const Header = () => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `white`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -19,11 +19,12 @@ const Header = () => (
         <Link
           to="/"
           style={{
-            color: `#E8D5B5`,
+            color: `black`,
             textDecoration: `none`,
+            fontSize: `24px`,
           }}
         >
-          Name Generator
+          NAME GENERATOR
         </Link>
       </h1>
     </div>

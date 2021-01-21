@@ -3,19 +3,22 @@
   flex-direction: row;
   justify-content: space-evenly;
   padding-bottom: 2rem;
+  background-color: black;
+  border-radius: 1rem;
 }
 
 .warning {
   text-align: center;
   font-size: 1rem;
-  background-color: #e8d5b5;
-  color: #663399;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
   border-radius: 1rem 1rem 0 0;
 }
 
 .name-container {
-  background-color: #e8d5b5;
-  color: #663399;
+  background-color: white;
+  color: black;
   padding: 1.5rem;
   border-radius: 1rem;
 }

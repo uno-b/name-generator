@@ -1,7 +1,7 @@
 .container {
   width: 920px;
   margin: auto;
-  background-color: #663399;
+  background-color: black;
   color: #e8d5b5;
   backdrop-filter: blur(20px);
   border-radius: 1rem;
@@ -22,30 +22,34 @@
 }
 
 .buttons .generate-button {
-  background-color: #663399;
-  color: #e8d5b5;
+  background-color: white;
+  color: black;
   border: none;
-  font-size: 2rem;
+  font-size: 36px;
   padding: 1rem;
+  border: 2px solid black;
   border-radius: 1rem;
+  transition: 0.2s;
+  font-weight: 600;
 }
 
 .buttons .generate-button:hover {
-  background-color: #7da9c3;
+  background-color: gray;
 }
 
 .buttons .advanced-button {
   width: 150px;
-  font-size: 1rem;
+  font-size: 18px;
   background-color: transparent;
   border: none;
-  color: #663399;
+  color: white;
   margin: 1rem auto 0 auto;
   white-space: nowrap;
+  transition: 0.2s;
 }
 
 .buttons .advanced-button:hover {
-  color: #7da9c3;
+  color: gray;
 }
 
 .result {
